@@ -4,8 +4,8 @@
  * Plugin URI: http://wordpress.org/extend/plugins/bbpress-ignore-user/
  * Description: Allow members of the forum to selectively have a user's posts and topics hidden from view.
  * Dependencies: bbpress/bbpress.php
- * Version: 0.2
- * Author: Tony Korologos (forked from Jason Schwarzenberger)
+ * Version: 0.3
+ * Author: Tony Korologos (forked from Jason Schwarzenberger Thanks!)
  * Author URI: http://www.tkserver.com
  */
 /*  Copyright 2011  Jason Schwarzenberger  (email : jason@master5o1.com)
@@ -63,7 +63,7 @@ class bbp_5o1_ignore_user {
 		$before = bbp_5o1_ignore_user::get_ignored_users($user_id);
 		if ( !empty($before) )
 			delete_user_meta( $user_id, 'bbp_5o1_ignored_users' );
-		if ( empty($ignored_users) ) 
+		if ( empty($ignored_users) )
 			return;
 		$ignored_ids = "";
 		foreach (array_keys($ignored_users) as $id) {

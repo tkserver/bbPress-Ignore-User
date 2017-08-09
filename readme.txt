@@ -4,7 +4,7 @@ Donate link:
 Tags: bbPress, bbPress, ignore user, block user, ignore, self-censorship
 Requires at least: WP 4.5 / bbP 2.5.13
 Tested up to: WP 4.8.1 / bbP 2.5.13
-Stable tag: 0.2
+Stable tag: 0.3
 
 Allow members of the forum to selectively have a user's posts and topics hidden from view.
 
